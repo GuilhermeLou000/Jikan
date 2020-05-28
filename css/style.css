@@ -1,0 +1,133 @@
+body{
+    background-image: url(../imagens/wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+
+}
+
+/*div{
+	height: 100px;
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: blue;
+} */
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+main{
+    width: 100%;
+    min-height: 536px;
+    max-height: auto;
+}
+
+.titulo{
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 270px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+form{
+    width: 100%;
+    height:50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.EscreverAnime{
+    width: 100px;
+    height: 50px;
+    float: left;
+    padding-top:15px;
+    box-sizing: border-box;
+    margin-left: 550px;
+}
+
+#nome{
+    background-color: gray;
+    color: white;
+}
+
+.botaoPesquisa{
+    width: 100px;
+    padding-top:15px;
+    box-sizing: border-box;
+    height: 50px;
+    float: left;
+}
+
+#buscar{
+	margin-left: 110px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+
+
+}
+
+.card {
+    height: 300px;
+    width: 170px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    /*background-color: blue;*/
+    float: left;
+    text-decoration: none;
+    background-color: gray;
+}
+
+.card_image {
+    height: 190px;
+    width: 100%;
+}
+img{
+	height: 190px;
+    width: 100%;
+}
+
+.card_name {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #343434;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+.container{
+	height: auto;
+	width: 95%;
+	overflow: hidden;
+    background-color: rgba(0,0,0,0.7);
+	padding: 30px;
+	box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
